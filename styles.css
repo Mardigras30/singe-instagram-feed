@@ -1,0 +1,65 @@
+.header1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    }
+    .user-info {
+    display: flex;
+    align-items: center;
+    }
+    .user-info img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 40%;
+    }
+    .username {
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    }
+    .profilepic {
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    }
+    /* Post Styles */
+    .main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    }
+    .post-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    }
+    .post-container h2,
+    .post-container h3 {
+    margin: 0;
+    }
+    .post-img {
+    width: 100%;
+    height: auto;
+    }
+    .fa-bookmark {
+    padding-top: 21px;
+    padding-right: 5px;
+    float: right;
+    }
+    .fa-heart {
+    padding-left: 5px;
+    }
+    .right-page {
+    margin-left: auto;
+    }
+    .fa-xs {
+    max-width: 20%;
+    }
